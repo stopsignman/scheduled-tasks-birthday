@@ -29,7 +29,7 @@ letters = ["letter_templates/letter_1.txt", "letter_templates/letter_2.txt", "le
 email = ""
 
 username = os.environ.get("MY_EMAIL")
-password = os.environ.get("MY_PASSWORD)
+password = os.environ.get("MY_PASSWORD")
 
 for i in range(data["name"].size):
     if (data["day"][i] == cur_time.day and
